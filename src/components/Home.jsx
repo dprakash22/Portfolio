@@ -1,0 +1,34 @@
+import React from 'react'
+import '../assets/cssfiles/home.css'
+import Typewriter from './Typewriter';
+import Photo from './Photo';
+import { SocialIcon } from 'react-social-icons'
+
+
+function Home() {
+
+    return (
+    <div className='flex flex-row justify-around h-screen'>
+
+        <div className='flex flex-col justify-center gap-3 w-1/2'>
+            <h1 className='text-4xl tracking-wider'>Hello, I'm</h1>
+            <h1 className='text-6xl tracking-wider font-bold'>Deepak Prakash</h1>
+            <h1 className='text-3xl tracking-wider mb-4'> <Typewriter text='Full-Stack Developer' delay={100} /> </h1>
+            <p>As a fullstack developer with a deep passion for web development, I thrive on creating innovative and dynamic web experiences. My expertise spans across both front-end and back-end technologies, allowing me to build seamless and impactful solutions.</p>
+            <div className='flex flex-row gap-4 mt-3'>
+            <SocialIcon network="github" bgColor='rgb(0, 107, 177)' url="https://github.com/dprakash22" />
+            <SocialIcon network="linkedin" bgColor='rgb(0, 107, 177)' url="https://www.linkedin.com/in/deepak-prakash-s-158184271/" />
+            <SocialIcon network="leetcode" bgColor='rgb(0, 107, 177)' url="https://leetcode.com/u/d_prakash_s22/" />
+            </div>
+            <button type="button" className="bg-sky-700 p-2 rounded-2xl w-44 mt-3 mybtn"><a href="https://drive.google.com/file/d/1m9g4itmU_q2xvgtJSE8wmaBhyykuaUa2/view?usp=sharing"><h5>Resume</h5></a></button>
+        </div>
+
+        <div className='flex flex-col justify-center p-1 mypic'>
+            <Photo width='400px'/>
+        </div>
+
+    </div>
+  )
+}
+
+export default Home

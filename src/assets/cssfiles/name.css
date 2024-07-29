@@ -1,0 +1,45 @@
+/* Base */
+.fpname {
+    padding: 0;
+    margin: 0;
+    background-color: #04030a!important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  .fpname h1 {
+    color: hsl(0, 2%, 90%);
+    font-size: 80px!important;
+    font-weight: bold!important;
+    font-family: monospace;
+    letter-spacing: 7px!important;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 50px;
+    padding-top: 0px;
+    background: linear-gradient(to right, hsl(0, 1%, 32%) 0, hsl(0, 27%, 98%) 10%, hsl(240, 1%, 27%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+  }
+
+  .fpname h2{
+    color: hsl(0, 0%, 28%);
+    font-size: 30px!important;
+    font-weight: bold!important;
+    font-family: monospace;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 600px;
+    }
+    100% {
+      background-position: 600px;
+    }
+  }

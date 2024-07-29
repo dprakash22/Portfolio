@@ -1,0 +1,26 @@
+.contact {
+    text-align: center;
+  }
+  Form {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 30px;
+    
+  }
+
+  .customlabel {
+    color: #fdf9f9!important; 
+    font-weight: bold!important;
+    font-size: 20px!important;
+  }
+
+  
+  TextArea{
+    height: 100px!important;
+    font-size: 14px!important;
+  }
+
+  .customicon {
+    color: #6b0400;
+  }
+  
