@@ -6,7 +6,7 @@ function Projects() {
         <h1 className='mb-4 text-5xl tracking-wider font-bold text-blue-600'>Projects</h1>
         <div className="flex flex-wrap gap-4 my-8 justify-around bg-slate-950 text-white">
             <div className="border border-black rounded-3xl flex-col w-96 my-5 pb-3 gap-2">
-                    <img className='rounded-t-2xl' width={"100%"} src="src/assets/images/atn.png" alt="pic"></img>
+                    <img className='rounded-t-2xl' width={"100%"} src="https://drive.google.com/thumbnail?id=1YDrdSB1r-KSMHD36CNNgyl7LKKB38XYL" alt="pic"></img>
                     <div className="mt-4">
                         <div className="mt-4 pl-3 pr-3 text-center">
                             <h1 className='mb-2 text-4xl font-bold'>Any Time Network</h1>
@@ -24,7 +24,7 @@ function Projects() {
             </div>
 
             <div className="border border-black rounded-3xl flex-col w-96 my-5 pb-3 gap-2">
-                    <img className='rounded-t-2xl' width={"100%"} src="src/assets/images/taskify.png" alt="pic"></img>
+                    <img className='rounded-t-2xl' width={"100%"} src="https://drive.google.com/thumbnail?id=1GWlnKfBodQ7pUHjZqvCbv-SbMTXCOLxV" alt="pic"></img>
                     <div className="mt-4">
                         <div className="mt-4 pl-3 pr-3 text-center">
                             <h1 className='mb-2 text-4xl font-bold'>Taskify Manager</h1>
@@ -45,7 +45,7 @@ function Projects() {
             </div>
 
             <div className="border border-black rounded-3xl flex-col w-96 my-5 pb-3 gap-2">
-                    <img className='rounded-t-3xl' width={"100%"} src="src/assets/images/shopkart.png" alt="pic"></img>
+                    <img className='rounded-t-3xl' width={"100%"} src="https://drive.google.com/thumbnail?id=1O5mwKnjdKhZ7aF9YXnnKH_97uLLwh6VG" alt="pic"></img>
                     <div className="mt-4">
                         <div className="mt-4 pl-3 pr-3 text-center">
                             <h1 className='mb-2 text-4xl font-bold'>Shopkart</h1>
@@ -63,7 +63,7 @@ function Projects() {
             </div>
 
             <div className="border border-black rounded-3xl flex-col w-96 my-5 pb-3">
-                    <img className='rounded-t-3xl' width={"100%"} src="src/assets/images/expense.png" alt="pic"></img>
+                    <img className='rounded-t-3xl' width={"100%"} src="https://drive.google.com/thumbnail?id=1DM5zPXSoaIcucP6kj3OexqpkJwYwnoHM" alt="pic"></img>
                     <div className="mt-4">
                         <div className="mt-4 pl-3 pr-3 text-center">
                             <h1 className='mb-2 text-4xl font-bold'>Expense Tracker</h1>
