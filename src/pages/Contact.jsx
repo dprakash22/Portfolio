@@ -30,9 +30,9 @@ const Contact = () => {
   };
 return (
   <div className='flex flex-row justify-around h-screen bg-slate-950'>
-    <div className="flex flex-col justify-center Contact w-1/2 gap-2">
-    <h2 className='text-center my-2 text-sky-500'>Let's Connect!</h2>
-    <h3 className='text-center my-3 text-sky-600'>Feel free to drop me a message anytime—I’m here to help!</h3>
+    <div className="flex flex-col justify-center Contact w-9/12 md:w-1/2 gap-2">
+    <h2 className='text-center my-1 md:my-2 text-sky-500'>Let's Connect!</h2>
+    <h3 className='text-center my-1 md:my-3 text-sky-600'>Feel free to drop me a message anytime—I’m here to help!</h3>
       <Form className='flex flex-col gap-4' onSubmit={handleOnSubmit}>
         <Form.Field
           id='form-input-control-email'

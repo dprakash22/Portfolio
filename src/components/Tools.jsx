@@ -4,7 +4,7 @@ import Typewriter from './Typewriter';
 function Tools() {
   return (
     <div className='flex flex-col justify-center bg-slate-950'>
-        <h1 className='text-5xl tracking-wider font-bold mb-6 pl-32'><Typewriter text='Tools' delay={100} /></h1>
+        <h1 className='text-5xl tracking-wider font-bold mb-6 text-center'><Typewriter text='Tools' delay={100} /></h1>
         <div className='flex flex-row justify-evenly flex-wrap gap-6'>
           <img width={'80px'} className='mb-3' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />
           <img width={'80px'} className='mb-3' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" />

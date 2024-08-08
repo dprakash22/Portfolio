@@ -26,19 +26,19 @@ function Skills() {
     };
 
     const getButtonClass=(component)=>{
-        return `border-blue-900 p-3 rounded-2xl w-64 text-center mt-3 cursor-pointer ${ActiveComponent===component ? 'bg-blue-900' : 'bg-sky-600'}`;
+        return `border-blue-900 p-3 rounded-2xl w-44 md:w-64 text-center mt-3 cursor-pointer ${ActiveComponent===component ? 'bg-blue-900' : 'bg-sky-600'}`;
     };
 
 
   return (
     <>
     <div className='h-screen bg-slate-950'>
-        <div className='pt-28 mb-4'>
+        <div className='pt-32 mb-4'>
             <h1 className='flex flex-row justify-center  text-6xl tracking-wider font-medium'>Skills</h1>
         </div>
 
-        <div className='flex flex-row justify-around mt-20 bg-slate-950'>
-            <div className="flex flex-col justify-center gap-3">
+        <div className='flex flex-col md:flex-row justify-center md:justify-around mt-20 bg-slate-950'>
+            <div className="flex flex-wrap md:flex-col justify-around px-10 md:px-0 md:justify-center gap-3">
                 <div
                     className={getButtonClass('Frontend')}
                     onClick={() => setActiveComponent('Frontend')}
@@ -65,7 +65,7 @@ function Skills() {
                 </div>
             </div>
 
-            <div className='w-1/4'>
+            <div className='w-full md:w-1/4 p-16 md:p-0'>
                 {rendercomponent()}
             </div>
 

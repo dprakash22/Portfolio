@@ -3,15 +3,15 @@ import Photo from '../components/Photo.jsx';
 
 function About() {
   return (
-    <div className='flex flex-row justify-around h-screen bg-slate-950'>
+    <div className='flex flex-col lg:flex-row justify-around h-screen bg-slate-950'>
 
-        <div className='flex flex-col justify-center p-1 mypic'>
+        <div className='flex flex-col justify-center p-1 mypic' style={{marginTop:"100px"}}>
             <Photo width='400px'/>
         </div>
 
-        <div className='flex flex-col justify-center gap-3 w-1/2'>
-        <h1 className='text-6xl font-bold'>About Me</h1>
-        <p className='text-lg'>
+        <div className='flex flex-col justify-center gap-3 p-8 lg:w-1/2 items-center pb-5'>
+        <h1 className='text-4xl lg:text-6xl font-bold'>About Me</h1>
+        <p className='text-base md:text-lg'>
         I am a full-stack developer with a deep passion for web development. 
         I enjoy building dynamic and user-friendly web applications from the ground up. 
         My expertise spans various programming languages, enabling me to create seamless and impactful solutions. 

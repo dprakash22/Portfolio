@@ -4,15 +4,15 @@ import '../assets/cssfiles/header.css';
 
 function Header() {
   return (
-    <div className='flex flex-row justify-around py-4 bg-slate-950 fixed top-0 left-0 right-0 botglow'>
-      <div>
+    <div className='flex flex-row justify-around py-4 bg-slate-950 fixed top-0 left-0 right-0 botglow mb-48'>
+      <div className='hidden md:inline-block'>
         <h4 className='text-2xl font-bold'>
           <span>Deepak </span><span>Prakash</span>
         </h4>
       </div>
 
       <div>
-        <ul className='flex flex-row justify-between gap-14'>
+        <ul className='flex flex-row justify-between gap-7 md:gap-14'>
           <li>
             <NavLink 
               to="/home" 
