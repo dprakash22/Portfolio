@@ -33,7 +33,7 @@ function Skills() {
   return (
     <>
     <div className='h-screen bg-slate-950'>
-        <div className='pt-32 mb-4'>
+        <div className='pt-32'>
             <h1 className='flex flex-row justify-center  text-6xl tracking-wider font-medium'>Skills</h1>
         </div>
 
